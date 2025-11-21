@@ -7,6 +7,16 @@ public class Texte extends Fichier {
     private String auteur;
     private String logiciel_texte;
 
+     public Texte(String encodage, String langue, int nombreligne, String auteur, String log) {
+        this.encodage = encodage;
+        this.langue = langue;
+        this.nombreligne = nombreligne;
+        this.auteur = auteur;
+        this.logiciel_texte = log;
+        this.auteur = auteur;
+
+    }
+
 
 
     public Texte() {}
