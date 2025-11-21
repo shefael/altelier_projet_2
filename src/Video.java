@@ -13,6 +13,7 @@ public class Video extends Fichier {
         this.realisateur = realisateur;
         this.dure = dure;
         this.resolution = resolution;
+    }
 
     public Video (){}
     public void setdure(double dure) {
