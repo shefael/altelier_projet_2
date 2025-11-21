@@ -7,6 +7,14 @@ public class Audio extends Fichier{
     private String artise;
     private String public_clible;
 
+     public Audio (String source, String artise, String public_clible, double frenquence, double dure){
+        this.source = source;
+        this.artise = artise;
+        this.public_clible = public_clible;
+        this.frenquence = frenquence;
+        this.dure = dure;
+    }
+
     public Audio(){}
     public void setFrenquence(double frenquence){
         this.frenquence = frenquence;
