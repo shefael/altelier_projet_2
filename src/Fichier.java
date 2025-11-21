@@ -7,6 +7,15 @@ public class Fichier {
     private String type;
     private String chemin;
 
+    public Fichier(String nom, LocalDate date_creation, double taille) {
+        this.nom = nom;
+        this.date_creattion = date_creation;
+        this.taille = taille;
+        this.type = type;
+        this.chemin = chemin;
+
+    }
+
     public Fichier() {}
     public void setNom(String nom) {
         this.nom = nom;
