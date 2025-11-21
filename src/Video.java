@@ -7,6 +7,13 @@ public class Video extends Fichier {
     private String acteur;
     private String realisateur;
 
+    public Video(String camera, String acteur, String realisateur) {
+        this.camera = camera;
+        this.acteur = acteur;
+        this.realisateur = realisateur;
+        this.dure = dure;
+        this.resolution = resolution;
+
     public Video (){}
     public void setdure(double dure) {
         this.dure = dure;
