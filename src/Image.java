@@ -7,6 +7,15 @@ public class Image extends Fichier {
     private double lageur;
     private double resolution;
 
+    public Image(String couleur, double lageur, double resolution) {
+        this.couleur = couleur;
+        this.lageur = lageur;
+        this.resolution = resolution;
+        this.format_couluer = "png";
+        this.format_couluer = "jpg";
+
+    }
+
     public Image() {}
     public void setFormat_couluer(String format_couluer) {
         this.format_couluer = format_couluer;
